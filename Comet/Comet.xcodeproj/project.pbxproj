@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF8CCC6B1CA4EC2D003E29CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CCC6A1CA4EC2D003E29CA /* AppDelegate.swift */; };
+		CF8CCC6D1CA4EC2D003E29CA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CCC6C1CA4EC2D003E29CA /* FirstViewController.swift */; };
+		CF8CCC6F1CA4EC2D003E29CA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CCC6E1CA4EC2D003E29CA /* SecondViewController.swift */; };
+		CF8CCC721CA4EC2D003E29CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8CCC701CA4EC2D003E29CA /* Main.storyboard */; };
+		CF8CCC741CA4EC2D003E29CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8CCC731CA4EC2D003E29CA /* Assets.xcassets */; };
+		CF8CCC771CA4EC2D003E29CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8CCC751CA4EC2D003E29CA /* LaunchScreen.storyboard */; };
+		CF8CCC821CA4EC2D003E29CA /* CometTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CCC811CA4EC2D003E29CA /* CometTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF8CCC7E1CA4EC2D003E29CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8CCC5F1CA4EC2C003E29CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF8CCC661CA4EC2C003E29CA;
+			remoteInfo = Comet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF8CCC671CA4EC2C003E29CA /* Comet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8CCC6A1CA4EC2D003E29CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF8CCC6C1CA4EC2D003E29CA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CF8CCC6E1CA4EC2D003E29CA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CF8CCC711CA4EC2D003E29CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF8CCC731CA4EC2D003E29CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8CCC761CA4EC2D003E29CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF8CCC781CA4EC2D003E29CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8CCC7D1CA4EC2D003E29CA /* CometTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CometTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8CCC811CA4EC2D003E29CA /* CometTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CometTests.swift; sourceTree = "<group>"; };
+		CF8CCC831CA4EC2D003E29CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8CCC641CA4EC2C003E29CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CCC7A1CA4EC2D003E29CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF8CCC5E1CA4EC2C003E29CA = {
+			isa = PBXGroup;
+			children = (
+				CF8CCC691CA4EC2C003E29CA /* Comet */,
+				CF8CCC801CA4EC2D003E29CA /* CometTests */,
+				CF8CCC681CA4EC2C003E29CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8CCC681CA4EC2C003E29CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CCC671CA4EC2C003E29CA /* Comet.app */,
+				CF8CCC7D1CA4EC2D003E29CA /* CometTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8CCC691CA4EC2C003E29CA /* Comet */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CCC6A1CA4EC2D003E29CA /* AppDelegate.swift */,
+				CF8CCC6C1CA4EC2D003E29CA /* FirstViewController.swift */,
+				CF8CCC6E1CA4EC2D003E29CA /* SecondViewController.swift */,
+				CF8CCC701CA4EC2D003E29CA /* Main.storyboard */,
+				CF8CCC731CA4EC2D003E29CA /* Assets.xcassets */,
+				CF8CCC751CA4EC2D003E29CA /* LaunchScreen.storyboard */,
+				CF8CCC781CA4EC2D003E29CA /* Info.plist */,
+			);
+			path = Comet;
+			sourceTree = "<group>";
+		};
+		CF8CCC801CA4EC2D003E29CA /* CometTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8CCC811CA4EC2D003E29CA /* CometTests.swift */,
+				CF8CCC831CA4EC2D003E29CA /* Info.plist */,
+			);
+			path = CometTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8CCC661CA4EC2C003E29CA /* Comet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8CCC861CA4EC2D003E29CA /* Build configuration list for PBXNativeTarget "Comet" */;
+			buildPhases = (
+				CF8CCC631CA4EC2C003E29CA /* Sources */,
+				CF8CCC641CA4EC2C003E29CA /* Frameworks */,
+				CF8CCC651CA4EC2C003E29CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Comet;
+			productName = Comet;
+			productReference = CF8CCC671CA4EC2C003E29CA /* Comet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF8CCC7C1CA4EC2D003E29CA /* CometTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8CCC891CA4EC2D003E29CA /* Build configuration list for PBXNativeTarget "CometTests" */;
+			buildPhases = (
+				CF8CCC791CA4EC2D003E29CA /* Sources */,
+				CF8CCC7A1CA4EC2D003E29CA /* Frameworks */,
+				CF8CCC7B1CA4EC2D003E29CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8CCC7F1CA4EC2D003E29CA /* PBXTargetDependency */,
+			);
+			name = CometTests;
+			productName = CometTests;
+			productReference = CF8CCC7D1CA4EC2D003E29CA /* CometTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8CCC5F1CA4EC2C003E29CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Andre Plaut";
+				TargetAttributes = {
+					CF8CCC661CA4EC2C003E29CA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E2FW76FYC9;
+					};
+					CF8CCC7C1CA4EC2D003E29CA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CF8CCC661CA4EC2C003E29CA;
+					};
+				};
+			};
+			buildConfigurationList = CF8CCC621CA4EC2C003E29CA /* Build configuration list for PBXProject "Comet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8CCC5E1CA4EC2C003E29CA;
+			productRefGroup = CF8CCC681CA4EC2C003E29CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8CCC661CA4EC2C003E29CA /* Comet */,
+				CF8CCC7C1CA4EC2D003E29CA /* CometTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8CCC651CA4EC2C003E29CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CCC771CA4EC2D003E29CA /* LaunchScreen.storyboard in Resources */,
+				CF8CCC741CA4EC2D003E29CA /* Assets.xcassets in Resources */,
+				CF8CCC721CA4EC2D003E29CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CCC7B1CA4EC2D003E29CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8CCC631CA4EC2C003E29CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CCC6F1CA4EC2D003E29CA /* SecondViewController.swift in Sources */,
+				CF8CCC6B1CA4EC2D003E29CA /* AppDelegate.swift in Sources */,
+				CF8CCC6D1CA4EC2D003E29CA /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8CCC791CA4EC2D003E29CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8CCC821CA4EC2D003E29CA /* CometTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF8CCC7F1CA4EC2D003E29CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF8CCC661CA4EC2C003E29CA /* Comet */;
+			targetProxy = CF8CCC7E1CA4EC2D003E29CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF8CCC701CA4EC2D003E29CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8CCC711CA4EC2D003E29CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF8CCC751CA4EC2D003E29CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8CCC761CA4EC2D003E29CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF8CCC841CA4EC2D003E29CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF8CCC851CA4EC2D003E29CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8CCC871CA4EC2D003E29CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Comet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Comet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CF8CCC881CA4EC2D003E29CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Comet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Comet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CF8CCC8A1CA4EC2D003E29CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CometTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CometTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comet.app/Comet";
+			};
+			name = Debug;
+		};
+		CF8CCC8B1CA4EC2D003E29CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CometTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CometTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Comet.app/Comet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8CCC621CA4EC2C003E29CA /* Build configuration list for PBXProject "Comet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8CCC841CA4EC2D003E29CA /* Debug */,
+				CF8CCC851CA4EC2D003E29CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8CCC861CA4EC2D003E29CA /* Build configuration list for PBXNativeTarget "Comet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8CCC871CA4EC2D003E29CA /* Debug */,
+				CF8CCC881CA4EC2D003E29CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF8CCC891CA4EC2D003E29CA /* Build configuration list for PBXNativeTarget "CometTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8CCC8A1CA4EC2D003E29CA /* Debug */,
+				CF8CCC8B1CA4EC2D003E29CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8CCC5F1CA4EC2C003E29CA /* Project object */;
+}
