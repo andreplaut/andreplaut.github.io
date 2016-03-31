@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF4D2D8E1CACDC800016D37C /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D2D8D1CACDC800016D37C /* Week.swift */; };
+		CF4D2D901CACDD5F0016D37C /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D2D8F1CACDD5F0016D37C /* MealTableViewCell.swift */; };
+		CF4D2D921CACDECE0016D37C /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4D2D911CACDECE0016D37C /* MealTableViewController.swift */; };
 		CF8CCC6B1CA4EC2D003E29CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CCC6A1CA4EC2D003E29CA /* AppDelegate.swift */; };
 		CF8CCC6D1CA4EC2D003E29CA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CCC6C1CA4EC2D003E29CA /* FirstViewController.swift */; };
 		CF8CCC6F1CA4EC2D003E29CA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CCC6E1CA4EC2D003E29CA /* SecondViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF4D2D8D1CACDC800016D37C /* Week.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Week.swift; path = ../Week.swift; sourceTree = "<group>"; };
+		CF4D2D8F1CACDD5F0016D37C /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		CF4D2D911CACDECE0016D37C /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		CF8CCC671CA4EC2C003E29CA /* Comet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Comet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8CCC6A1CA4EC2D003E29CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF8CCC6C1CA4EC2D003E29CA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 		CF8CCC691CA4EC2C003E29CA /* Comet */ = {
 			isa = PBXGroup;
 			children = (
+				CF4D2D911CACDECE0016D37C /* MealTableViewController.swift */,
+				CF4D2D8F1CACDD5F0016D37C /* MealTableViewCell.swift */,
+				CF4D2D8D1CACDC800016D37C /* Week.swift */,
 				CF8CCC6A1CA4EC2D003E29CA /* AppDelegate.swift */,
 				CF8CCC6C1CA4EC2D003E29CA /* FirstViewController.swift */,
 				CF8CCC6E1CA4EC2D003E29CA /* SecondViewController.swift */,
@@ -203,7 +212,10 @@
 			files = (
 				CF8CCC6F1CA4EC2D003E29CA /* SecondViewController.swift in Sources */,
 				CF8CCC6B1CA4EC2D003E29CA /* AppDelegate.swift in Sources */,
+				CF4D2D901CACDD5F0016D37C /* MealTableViewCell.swift in Sources */,
 				CF8CCC6D1CA4EC2D003E29CA /* FirstViewController.swift in Sources */,
+				CF4D2D921CACDECE0016D37C /* MealTableViewController.swift in Sources */,
+				CF4D2D8E1CACDC800016D37C /* Week.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +411,7 @@
 				CF8CCC881CA4EC2D003E29CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF8CCC891CA4EC2D003E29CA /* Build configuration list for PBXNativeTarget "CometTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +420,7 @@
 				CF8CCC8B1CA4EC2D003E29CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
