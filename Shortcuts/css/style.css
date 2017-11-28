@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FBFBFB;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: #000000;
+    margin: 20px 0px 20px 0px;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+
+h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.fa {
+    font-size: 28px;
+    color: #000000;
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+
+.fa-twitter {
+    margin-left: 25px;
+}
+
+.fa:hover {
+    transform:scale(1.15,1.15);
+    -webkit-transform:scale(1.15,1.15);
+    -moz-transform:scale(1.15,1.15);
+}
+
+.new_section {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.line {
+    width: 70px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+/*.line-homepage {
+    background-color: #7166FF;
+}*/
+
+
+.content-wrapper {
+    width: 85%;
+    /*max-width: 1920px;*/
+    max-width: 1200px;
+    margin: auto;
+}
+
+button {
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    color: #FFFFFF;
+    background-color: #7166FF;
+    box-shadow: 0 5px 15px 0 rgba(127,127,127,0.50);
+    display: block;
+    /*margin: auto;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 45px 0px 45px;
+    transition-property: all;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+
+.button {
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    color: #FFFFFF;
+    background-color: #7166FF;
+    box-shadow: 0 5px 15px 0 rgba(127,127,127,0.50);
+    display: block;
+    /*margin: auto;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 45px 0px 45px;
+    transition-property: all;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+
+button:hover{
+    transform:scale(1.03,1.03);
+    -webkit-transform:scale(1.03,1.03);
+    -moz-transform:scale(1.03,1.03);
+    cursor: pointer;
+}
+
+.button:hover{
+    transform:scale(1.03,1.03);
+    -webkit-transform:scale(1.03,1.03);
+    -moz-transform:scale(1.03,1.03);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+    button {
+        margin: 50px 0px 50px 0px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .button {
+        margin: 50px 0px 50px 0px;
+    }
+}
+
+.missing-something {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .missing-something {
+        width: 100%;
+    }
+}
