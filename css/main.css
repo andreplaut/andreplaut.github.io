@@ -71,3 +71,10 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.huma {
+    width: 100px;
+    height: 100px;
+    background-color: #4A90E2;
+    float: right;
+}
