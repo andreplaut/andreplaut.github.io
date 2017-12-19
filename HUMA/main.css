@@ -29,6 +29,8 @@
 
 .wrapper {
 	padding: 0px;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .valueProp {
@@ -61,6 +63,11 @@
     color: #4A90E2;
     text-align: center;
     margin: 0;
+}
+
+#bottomCTA {
+	margin-top: 30px;
+	margin-bottom: 80px;
 }
 
 a {
@@ -174,6 +181,122 @@ a:link, a:visited, a:hover, a:active {
 
 }
 
+.row {
+	height: 400px;
+	margin: 60px auto;
+}
+
+.col-md-4 {
+	height: 400px;
+	border-radius: 5px;
+	padding-top: 10px;
+	margin: 0 auto;
+}
+
+#colOne {
+	background-color: #44BBA4;
+	width: 30%;
+	margin-right: 1%;
+	margin-left: 3%;
+	border-bottom: solid 6px #297364;
+
+}
+
+#colTwo {
+	background-color: #4A90E2;
+	width: 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+	border-bottom: solid 6px #155196;
+}
+
+#colThree {
+	background-color: #A14EBF;
+	width: 30%;
+	margin-left: 1%;
+	border-bottom: solid 6px #5C2E6D;
+}
+
+
+.row h2 {
+	font-family: Nunito;
+	font-weight: 700;
+	color: white;
+	font-size: 2.5em;
+	padding-left: 15px;
+	margin-top: 30px;
+}
+
+.vpHeader {
+	width: 70%;
+}
+
+
+.row p {
+	font-family: Nunito;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #393E41;
+    text-align: left;
+    width: 85%;
+    color: white;
+    margin-left: 15px;
+    opacity: 0.9;
+}
+
+.bodyText {
+	height: 225px;
+	/*background-color: yellow;*/
+}
+
+span {
+	opacity: 0.5;
+}
+
+.footer {
+	width: 100%;
+	height: 120px;
+	padding: 8px;
+	background-color: #f5f5f5;
+	margin-top: 50px;
+}
+
+.footerText {
+	float: left;
+	width: 40%;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.footerText h3 {
+	font-family: Nunito;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: left;
+    color: #a6a8aa;
+    opacity: 0.9;
+    margin: 0;
+}
+
+#bottom {
+	margin-top: 20px;
+	margin-right: 40px;
+	border: 4px solid #a6a8aa;
+	float: right;
+}
+
+#bottom h6 {
+	color: #a6a8aa;
+}
+
+.fa-lg {
+	color: #a6a8aa;
+	margin-top: 5px;
+}
+
+.fa-linkedin {
+	margin-left: 5px;
+}
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~`RESPONSIVE~~~~~~~~~~~~~~~~~~~~~~~~`*/
@@ -382,6 +505,53 @@ a:hover {
 	margin-right: 65px;
 }
 
+.row {
+	height: auto !important;
+	margin-bottom: 20px;
+	/*background-color: red;*/
+}
+
+.col-md-4 {
+	height: auto !important;
+	padding-top: 5px;
+}
+
+#colOne {
+	width: 90%;
+	margin-left: 2%;
+	margin-bottom: 5%;
+
+}
+
+#colTwo {
+	width: 45%;
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+
+#colThree {
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+.row h2 {
+	font-size: 2.2em;
+	padding-left: 15px;
+	margin-top: 20px;
+}
+
+.row p {
+    font-size: 1.2em;
+    width: 85%;
+    color: white;
+    margin-left: 15px;
+    opacity: 0.8;
+    padding-bottom: 5px;
+    /*background-color: yellow;*/
+}
+
+
 }
 
 /*MOBILE BREAK*/
@@ -479,6 +649,7 @@ a:hover {
 
 .wrapper {
 	padding: 0px;
+	/*background-color: red;*/
 }
 
 .subProp {
@@ -510,7 +681,7 @@ a:hover {
     font-size: 1.2em;
     color: #393E41;
     text-align: left;
-    /*margin: 0;*/
+    margin-bottom: 40px;
 }
 
 .artwork {
@@ -559,5 +730,98 @@ a:hover {
 	float: left;
 	/*margin-right: 30px;*/
 }
+
+.row {
+	height: auto !important;
+	margin-bottom: 20px;
+	/*background-color: red;*/
+}
+
+.col-md-4 {
+	height: auto !important;
+	padding-top: 5px;
+}
+
+#colOne {
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+
+}
+
+#colTwo {
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+#colThree {
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+.row h2 {
+	font-size: 2.2em;
+	padding-left: 15px;
+	margin-top: 20px;
+}
+
+.row p {
+    font-size: 1.2em;
+    width: 85%;
+    color: white;
+    margin-left: 15px;
+    opacity: 0.8;
+    padding-bottom: 5px;
+    /*background-color: yellow;*/
+}
+
+.footer {
+	width: 100%;
+	height: 120px;
+	padding: 8px;
+	background-color: #f5f5f5;
+	margin-top: 50px;
+}
+
+.footerText {
+	float: left;
+	width: 40%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footerText h3 {
+	font-family: Nunito;
+    font-weight: 700;
+    font-size: 1.0em;
+    text-align: left;
+    color: #a6a8aa;
+    opacity: 0.9;
+    margin: 0;
+}
+
+#bottom {
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 4px solid #a6a8aa;
+	float: right;
+}
+
+#bottom h6 {
+	color: #a6a8aa;
+}
+
+.fa-lg {
+	color: #a6a8aa;
+	margin-top: 5px;
+}
+
+.fa-linkedin {
+	margin-left: 5px;
+}
+
+
 
 }
