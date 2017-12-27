@@ -1,5 +1,6 @@
 .container {
 	width: 90% !important;
+	/*background-color: grey;*/
 }
 
 /*ABOVE THE FOLD*/
@@ -48,85 +49,52 @@
     line-height: 0.9;
 }
 
+
+
+form {
+	margin: 0 auto;
+	padding: 0px;
+	/*background-color: red;*/
+	width: 80%;
+	display: block;
+	margin-top: 90px;
+	margin-bottom: 70px;
+}
+
 .formField {
 	padding: 15px;
 	font-family: Nunito;
 	font-weight: 400;
-	width: 25%;
+	width: 32%;
+	margin-right: 1%;
 	border-radius: 2px;
-	border: 1px solid #D8D8D8; 
+	border: 1px solid #D8D8D8;
 }
 
-form {
-	margin: 0 auto;
-	background-color: red;
-	width: 80%;
-}
-
-button {
-	font-family: Nunito !important;
-	font-weight: 700 !important;
-	font-size: 1.5em !important;
-}
-
-
-.CTA {
-	/*border: 2px solid #4A90E2;*/
+form > button {
+	font-family: Nunito;
+	font-weight: 700;
+	font-size: 1.25em;
+	line-height: 1;
 	border-radius: 2px;
-	border: none;
-	width: 250px;
-	/*margin-top: 10px;*/
-	/*padding: 15px;*/
-	height: 50px;
-	padding-top: 1px;
-	padding-bottom: 1px; 
+	border: 1px solid #4A90E2;
+	width: 32%;
+	padding: 15px;
+	padding-bottom: 18px;
 	background-color: #4A90E2; 
 	text-decoration: none;
+	color: white;
 }
-/*
-.CTA h3 {
-	text-decoration: none;
-	font-family: Nunito;
-    font-weight: 700;
-    font-size: 2em;
-    color: #4A90E2;
-    text-align: center;
-    margin: 0;
-}*/
 
 a {
 	text-decoration: none;
 }
 
-/*HOVER STATUS STYLING*/
-/*
-a:link, a:visited, a:hover, a:active {
-	text-decoration: none !important;
-	text-decoration-color: rgba(0,0,0,0) !important; 
-}
-
-.CTA:hover {
-	text-decoration: none;
-	border: 4px solid #4A90E2;
-	border-radius: 5px;
-	width: 250px;
-	margin: 60px auto;
-	padding: 15px;
-	background-color: #4A90E2
-	/*color: white;*/
-}
-
-/*.CTA:hover h3 {
-	text-decoration: none;
-	text-transform: none;
-	color: white;
-}
-*/
 /*CARD VALUE PROPS*/
 
 .row {
 	height: 400px;
-	margin: 60px auto;
+	margin: 30px auto;
 	/*background-color: red;*/
 }
 
@@ -144,8 +112,6 @@ a:link, a:visited, a:hover, a:active {
 	margin-right: 1%;
 	margin-left: 3%;
 	border-bottom: solid 6px #297364;
-
-
 }
 
 #colTwo {
@@ -204,6 +170,15 @@ span {
 
 /*SUB PROP QUOTES*/
 
+.subPropWrapper {
+	margin-top: 30px;
+	/*margin: 0 auto;*/
+	padding: 0px;
+	margin-left: 5%;
+	width: 90%;
+	display: inline-block;
+	/*background-color: yellow;*/
+}
 
 #propOne > .fa-quote-left {
     color: rgba(68,187,164,0.3);
@@ -240,12 +215,14 @@ span {
 	width: 50%;
 	float: left;
 	margin-top: 30px;
+	/*background-color: purple;*/
 }
 
 .artwork img {
 	display: block;
 	width: 250px;
 	margin: 0 auto;
+	/*background-color: red;*/
 }
 
 #propOne {
@@ -288,9 +265,16 @@ span {
 
 }
 
-#bottomCTA {
-	margin-top: 30px;
-	margin-bottom: 80px;
+form > h3 {
+	font-family: Nunito;
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-bottom: 5px;
+}
+
+#lowerForm {
+	margin-top: 60px;
+	/*background-color: red;*/
 }
 
 .footer {
@@ -412,43 +396,39 @@ body {
     line-height: 0.9;
 }
 
-.CTA {
-	border: 2px solid #4A90E2;
-	border-radius: 3px;
-	width: 250px;
-	margin: 40px auto;
-	padding: 10px;
-	text-decoration: none;
+form {
+	margin: 0 auto;
+	padding: 0px;
+	/*background-color: red;*/
+	width: 100%;
+	display: block;
+	margin-top: 90px;
+	margin-bottom: 70px;
 }
 
-a {
-	text-decoration: none;
-
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-.CTA:hover {
-	border: 2px solid #4A90E2;
-	border-radius: 3px;
-	width: 250px;
-	margin: 40px auto;
-	padding: 10px;
-	text-decoration: none;
-	background-color: #4A90E2
-	/*text-color: white;*/
-}
-
-.CTA h3 {
-	text-decoration: none;
+.formField {
+	padding: 15px;
 	font-family: Nunito;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #4A90E2;
-    text-align: center;
-    margin: 0;
+	font-weight: 400;
+	width: 32%;
+	margin-right: 1%;
+	border-radius: 2px;
+	border: 1px solid #D8D8D8;
+}
+
+form > button {
+	font-family: Nunito;
+	font-weight: 700;
+	font-size: 1.25em;
+	line-height: 1;
+	border-radius: 2px;
+	border: 1px solid #4A90E2;
+	width: 32%;
+	padding: 15px;
+	padding-bottom: 18px;
+	background-color: #4A90E2; 
+	text-decoration: none;
+	color: white;
 }
 
 .fa-quote-left {
@@ -460,24 +440,17 @@ a:hover {
 
 }
 
-.wrapper {
-	padding: 0px;
+.subPropWrapper {
+	margin-top: 20px;
+	width: 90%;
+	margin-left: 5%;
 }
 
-.subProp {
-	width: 100%;
-	margin-top: 10px;
-	float: left;
-	clear: both;
-	margin-bottom: 30px;
-
-}
 
 #propOne {
 	width: 50%;
 	float: left;
 	margin-right: 0px;
-	margin-right: 65px;
 }
 
 .subProp h2 {
@@ -499,21 +472,23 @@ a:hover {
 
 .artwork {
 	margin: 60px auto;
-	width: 30%;
+	width: 45%;
 	float: left;
+	/*background-color: purple;*/
 }
 
 .artwork img {
 	display: block;
 	width: 200px;
-	margin: 0 auto;
+	/*margin: 0 auto;*/
+	/*background-color: red;*/
 }
 
 
 #propTwo {
 	width: 50%;
-	margin-right: 65px;
-	float: left;
+	margin-left: 0px;
+	float: right;
 }
 
 #propOne h2 {
@@ -542,7 +517,7 @@ a:hover {
 #propThree {
 	width: 50%;
 	float: left;
-	margin-right: 65px;
+	margin-right: 0px;
 }
 
 .row {
@@ -558,21 +533,21 @@ a:hover {
 
 #colOne {
 	width: 90%;
-	margin-left: 2%;
-	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-bottom: 3%;
 
 }
 
 #colTwo {
-	width: 45%;
-	margin-left: 2%;
-	margin-bottom: 5%;
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 3%;
 }
 
 #colThree {
 	width: 90%;
 	margin-left: 5%;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 }
 
 .row h2 {
@@ -591,10 +566,15 @@ a:hover {
     /*background-color: yellow;*/
 }
 
+.bodyText {
+	height: auto;
+	margin-bottom: 5%;
+}
+
 
 }
 
-/*MOBILE BREAK*/
+/*MOBILE BREAK*/ /*~~~~~~LOCKED~~~~~~~~*/
 
 @media only screen and (max-width: 750px) {
 
@@ -640,42 +620,36 @@ body {
     line-height: 0.9;
 }
 
-.CTA {
-	border: 2px solid #4A90E2;
-	border-radius: 3px;
-	width: 50%;
-	margin: 40px auto;
-	padding: 10px;
-	text-decoration: none;
+form {
+	padding: 0px;
+	/*background-color: green;*/
+	width: 100%;
+	display: block;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
-a {
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-.CTA:hover {
-	border: 2px solid #4A90E2;
-	border-radius: 3px;
-	width: 50%;
-	margin: 40px auto;
-	padding: 10px;
-	text-decoration: none;
-	background-color: #4A90E2
-	/*text-color: white;*/
-}
-
-.CTA h3 {
-	text-decoration: none;
+.formField {
+	padding: 15px;
 	font-family: Nunito;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: #4A90E2;
-    text-align: center;
-    margin: 0;
+	font-weight: 400;
+	width: 100%;
+	margin-bottom: 2%;
+	border-radius: 2px;
+	border: 1px solid #D8D8D8;
+}
+
+form > #topCTA {
+	font-size: 1.25em;
+	line-height: 1;
+	border-radius: 2px;
+	border: 1px solid #4A90E2;
+	width: 100%;
+	padding: 15px;
+	padding-bottom: 18px;
+	background-color: #4A90E2; 
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .fa-quote-left {
@@ -687,7 +661,8 @@ a:hover {
 
 }
 
-.wrapper {
+.subPropWrapper {
+	margin-top: 20px;
 	padding: 0px;
 	/*background-color: red;*/
 }
@@ -740,6 +715,7 @@ a:hover {
 #propTwo {
 	width: 100%;
 	float: left;
+	margin: 0 auto;
 }
 
 #propOne h2 {
@@ -774,17 +750,18 @@ a:hover {
 .row {
 	height: auto !important;
 	margin-bottom: 20px;
+	margin-top: 40px;
 	/*background-color: yellow;*/
 }
 
 .col-6 {
-	height: auto;
+	height: auto !important;
 	padding-top: 5px;
 }
 
 .bodyText {
 	margin-bottom: 5%;
-	height: 210px;
+	/*height: 210px;*/
 	/*background-color: orange;*/
 }
 
